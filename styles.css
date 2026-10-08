@@ -399,12 +399,18 @@ p {
         padding: 6rem 0;
     }
     .top-header {
-        position: relative;
-        top: 0;
-        transform: none !important;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%) !important;
         opacity: 1 !important;
-        margin-bottom: 3rem;
+        margin-bottom: 0;
+        width: 100%;
+        text-align: center;
     }
+    .bg-hero { object-position: 65% center; }
+    .bg-interior { object-position: 80% center; }
+    .bg-city { object-position: center center; }
     .bottom-content {
         position: relative;
         bottom: 0;
